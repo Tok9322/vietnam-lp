@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saigon Breeze | ベトナム料理店</title>
+  <meta name="description" content="フォー、バインミー、タピオカ、チェーが楽しめるベトナム料理店。モダンでおしゃれなデザインの公式LP。" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%8D%B4%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Saigon Breeze Top">Saigon Breeze</a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <button class="nav-toggle" aria-controls="nav-list" aria-expanded="false">MENU</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#concept">CONCEPT</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="https://www.ubereats.com/" target="_blank" rel="noopener" class="btn btn-primary small" aria-label="Uber Eats を開く">Uber Eats</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="ヒーロー">
+    <div class="hero-media" role="img" aria-label="ブンボーの写真"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">ベトナムの風を、やさしく日常に。</p>
+      <h1 class="display">
+        心地よく広がる、澄んだ味わい
+      </h1>
+      <p class="lede">フォー、バインミー、タピオカ、チェーまで。軽やかな味わいと香りを、モダンな空間でお楽しみください。</p>
+      <div class="hero-cta">
+        <a href="https://www.ubereats.com/" target="_blank" rel="noopener" class="btn btn-primary" aria-label="Uber Eats を開く">Uber Eats</a>
+        <a href="#menu" class="btn btn-ghost">メニューを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="concept" class="section section--wide">
+    <div class="container">
+      <div class="grid two">
+        <div>
+          <h2 class="h2">CONCEPT</h2>
+          <p class="big">「軽やかで整う、おいしさ。」</p>
+          <p>
+            澄んだスープのフォー、カリッと香ばしいバインミー、やさしい甘さのチェー。
+            Saigon Breeze は、素材の香りとバランスを大切にしたベトナム料理店です。
+            五感にひらくやさしい味を、肩の力を抜いて。
+          </p>
+        </div>
+        <div>
+          <div class="card card--image">
+            <img src="./assets/images/dishes/com-tam.jpg" alt="コムタム（ベトナムの砕き米ごはん）" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">MENU</h2>
+        <p class="muted">定番から季節のおすすめまで、軽やかなラインナップ</p>
+      </div>
+
+      <div class="grid three cards">
+        <article class="card">
+          <img src="./assets/images/dishes/Pho.jpg" alt="フォー" />
+          <div class="card-body">
+            <h3 class="h3">フォー</h3>
+            <p>透き通るスープに米麺ののどごし。鶏・牛・ヴィーガンから。</p>
+            <p class="price">¥980〜</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/images/dishes/banhmi.jpg" alt="バインミー" />
+          <div class="card-body">
+            <h3 class="h3">バインミー</h3>
+            <p>自家製パテとなます、ハーブが香るサクふわバゲット。</p>
+            <p class="price">¥780〜</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/images/dishes/fresh-spring-rolls.jpg" alt="生春巻き" />
+          <div class="card-body">
+            <h3 class="h3">生春巻き</h3>
+            <p>ライスペーパーで巻いた定番。エビやハーブの香りを。</p>
+            <p class="price">¥680〜</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="note">
+        アレルギーや辛さ調整もお気軽にご相談ください。テイクアウト可。
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section section--pale">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="h2">GALLERY</h2>
+        <p class="muted">白と自然光で魅せる空間</p>
+      </div>
+      <div class="masonry">
+        <img src="./assets/images/interior/celine-ylmz-L2ost-ZEmK8-unsplash.jpg" alt="店内のテーブルと自然光" />
+        <img src="./assets/images/interior/jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg" alt="落ち着いた店内の座席" />
+        <img src="./assets/images/interior/phebe-tan-G0H58Z5aPog-unsplash.jpg" alt="観葉植物のある店内" />
+      </div>
+    </div>
+  </section>
+
+  <section id="access" class="section">
+    <div class="container">
+      <div class="grid two">
+        <div>
+          <h2 class="h2">ACCESS</h2>
+          <p class="big">〒100-0000 東京都千代田区◯◯ 1-2-3</p>
+          <ul class="list">
+            <li>最寄駅：◯◯駅 徒歩3分</li>
+            <li>営業時間：11:00 - 21:30（L.O. 21:00）</li>
+            <li>定休日：火曜</li>
+            <li>電話：03-1234-5678</li>
+          </ul>
+          <div class="cta-inline">
+            <a href="https://www.ubereats.com/" target="_blank" rel="noopener" class="btn btn-primary" aria-label="Uber Eats を開く">Uber Eats</a>
+            <a href="tel:0312345678" class="btn btn-ghost">電話する</a>
+          </div>
+        </div>
+        <div>
+          <div class="map">
+            <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.961377030184!2d139.75945487645925!3d35.68039922967926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf8c6771f1f%3A0x2f1f1e3a2c5fcd1b!2z5pel5pys44CB5p2x5Lqs6YO95riv5Yy66KW_!5e0!3m2!1sja!2sjp!4v1680000000000!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reserve" class="section section--callout">
+    <div class="container callout">
+      <h2 class="h2">ご予約</h2>
+      <p class="big">下記のフォームまたは各グルメサイトからご予約いただけます。</p>
+      <div class="cta-inline">
+        <a class="btn btn-primary" href="#" aria-label="公式予約フォームへ">公式予約フォーム</a>
+        <a class="btn btn-ghost" href="#" aria-label="外部サイトで予約">食べログ / HOTPEPPER</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="logo">Saigon Breeze</span>
+        <p class="muted small">© 2025 Saigon Breeze. All rights reserved.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#concept">CONCEPT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#reserve">RESERVE</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="ページ上部へ戻る">▲</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
